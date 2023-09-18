@@ -9,6 +9,7 @@ body {
 }
 
 .header {
+    margin: 0.5em;
     font-weight: bold;
 }
 
@@ -19,15 +20,16 @@ body {
 }
 
 .ranking-header {
-    font-size: 30px;
+    font-size: 33px;
 }
 
 .list {
     margin: 0 auto; /* 0 is top and bottom, auto is left and right */
     width: 600px;
     padding-left: 0;
+    padding-bottom: 20px;
     line-height: 1.7;
-    font-size: 22px;
+    font-size: 25px;
     letter-spacing: 1px;
 }
 
@@ -36,11 +38,22 @@ img {
     margin: 0 auto;
     width: 70%;
     height: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 10%;
 }
+
 .blog-box {
     margin: 20px 250px 10px;   
     align-items: center; 
     padding: 10px 100px 20px;
-    border: 5px solid #0C356A;
-    
+    border: 10px groove #0C356A;
+    border-radius: 20px;
+    color: #071952;
+    font-size: 25px;
 }
+
+.blog-box-h2 {
+    font-size: 40px;
+}
+
