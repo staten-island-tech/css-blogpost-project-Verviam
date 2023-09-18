@@ -1,0 +1,14 @@
+body {
+    background-color: #279EFF;
+    color: #0C356A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    font-weight: bold;
+    
+}
+
+.blog-box {
+    text-shadow: #D5FFD0; /*edit*/
+}
