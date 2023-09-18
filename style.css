@@ -2,13 +2,45 @@ body {
     background-color: #279EFF;
     color: #0C356A;
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 50px 20px;
+
 }
 
 .header {
     font-weight: bold;
+}
+
+#intro-text {
+    font-size: 22px;
+    padding: 0 100px 0 100px;
     
 }
 
+.ranking-header {
+    font-size: 30px;
+}
+
+.list {
+    margin: 0 auto; /* 0 is top and bottom, auto is left and right */
+    width: 600px;
+    padding-left: 0;
+    line-height: 1.7;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+}
 .blog-box {
-    text-shadow: #D5FFD0; /*edit*/
+    margin: 20px 250px 10px;   
+    align-items: center; 
+    padding: 10px 100px 20px;
+    border: 5px solid #0C356A;
+    
 }
